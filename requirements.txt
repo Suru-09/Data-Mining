@@ -1,2 +1,6 @@
 PyPDF2~=1.28.4
 pdfminer~=20191125
+pandas
+tidytext
+siuba
+nltk

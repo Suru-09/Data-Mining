@@ -24,11 +24,10 @@ def convert_pdf_to_string(file_path):
     return output_string.getvalue()
 
 
-def save_string_in_txt_file(result):
-
-    if os.path.exists("data/MyDragonBook.txt"):
-        with codecs.open("data/MyDragonBook.txt", 'a', 'utf-8') as text_file:
+def save_string_in_txt_file(where_to_write, result):
+    if os.path.exists(where_to_write):
+        with codecs.open(where_to_write, 'a', 'utf-8') as text_file:
             text_file.write(result)
     else:
-        with codecs.open("data/MyDragonBook.txt", 'w', 'utf-8') as text_file:
+        with codecs.open(where_to_write, 'w', 'utf-8') as text_file:
             text_file.write(result)
