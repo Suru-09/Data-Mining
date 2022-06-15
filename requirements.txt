@@ -4,3 +4,4 @@ pandas
 tidytext
 siuba
 nltk
+numpy
