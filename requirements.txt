@@ -1,7 +1,8 @@
-PyPDF2~=1.28.4
-pdfminer~=20191125
+PyPDF2
+pdfminer
 pandas
 tidytext
 siuba
 nltk
 numpy
+gutenbergpy
