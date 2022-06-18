@@ -6,3 +6,4 @@ siuba
 nltk
 numpy
 gutenbergpy
+gensim
